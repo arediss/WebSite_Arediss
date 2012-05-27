@@ -148,20 +148,17 @@ color: #ffffa0;
 
 #pied_de_page
 {
-	padding: 5px;
+	height: 40px;
 	clear: both;
-	font-family: "minecraft";
-	font-size: 1.0em;
+	line-height: 40px;
+	margin-bottom: 20px;
 	text-align: center;
- -moz-border-radius: 7px;
- -webkit-border-radius: 7px;
- border-radius: 7px;
-   color: #B3B3B3;
-   background-color: #626262;
-   background-image: url("images/bg.gif");
-   background-repeat: repeat-x;
-   
-   border: 2px solid black;
+	color: #B3B3B3;
+	background-color: #626262;
+	background-image: url("images/fondmenu.jpg");
+	border: 2px solid black;
+	text-align: center;
+	font-family: "minecraft";
 }
 
 img, table, tr, td
