@@ -1,0 +1,119 @@
+@font-face {
+	font-family: "minecraft";
+	src: url("polices/minecraftia.ttf") format("ttf"),url("polices/minecraftia.ttf") format("truetype"),url("polices/minecraftia.ttf") format("truetype"),url("polices/minecraftia.ttf#Minecraft") format("truetype");
+	font-weight:normal;
+	font-style:normal;
+}
+
+body {
+   margin: auto;
+   margin-bottom: 20px;    
+   background-image: url("images/top.gif");
+}
+
+	#en_tete {
+		height: 200px;
+		background-image: url("images/fondhead.jpg");
+		line-height: 200px;
+	}
+
+		#en_tete .logo{
+			width: 800px;
+			height: 200px;
+			padding-top: 20px;
+			margin-right: auto;
+			margin-left: auto;
+		}
+	
+	#menu {
+	   height: 40px;
+	   clear: both;
+	   margin-bottom: 20px;
+	   text-align: center;
+	   color: #B3B3B3;
+	   background-color: #626262;
+	   background-image: url("images/fondmenu.jpg");
+	   border: 2px solid black;
+	}
+
+		.menu {
+			background: url('images/menu.png');
+			font-family: "minecraft";
+			text-decoration: none;
+			display: inline-block;
+			text-align: center;
+			line-height: 35px;
+			font-size: 1.0em;
+			color: #e0e0e0;
+			margin: 0 3px;
+			width: 150px;
+			height: 40px;
+		}
+
+		.menu:hover {
+			background: url('images/menu_hover.png');
+			color: #ffffa0;
+		}
+
+		#pageContent {
+			width: 1100px;
+			margin-right: auto;
+			margin-left: auto;
+		}
+		
+			#pageContent .corps {
+				width: 800px;
+				padding: 5px;
+				color: #B3B3B3;
+				background-color: #626262;
+				background-image: url("images/motif.png");
+				background-repeat: repeat-x;
+				border: 2px solid black;
+				float: left;
+			}
+				.corps h2 {
+					padding-left: 50px;
+					padding-bottom: 10px;
+					border-bottom: 2px solid #000;
+				}
+			
+			#pageContent .corps2 {
+				width: 250px;
+				padding: 5px;
+				color: #B3B3B3;
+				background-color: #626262;
+				background-image: url("images/motif.png");
+				background-repeat: repeat-x;
+				border: 2px solid black;
+				float: right;	
+				margin-bottom: 20px;
+			}
+				.corps2 h2 {
+					padding-left: 50px;
+					padding-bottom: 10px;
+					border-bottom: 2px solid #000;
+				}
+			
+				#corps h2 {
+					height: 30px;
+					background-image: url("images/titre.png");
+					background-repeat: no-repeat;
+					padding-left: 30px;
+					color: #B3B3B3;
+					text-align: left;
+				}
+
+		#pied_de_page{
+			height: 40px;
+			clear: both;
+			line-height: 40px;
+			margin-bottom: 20px;
+			text-align: center;
+			color: #B3B3B3;
+			bottom: 0px;
+			background-color: #626262;
+			background-image: url("images/fondmenu.jpg");
+			border: 2px solid black;
+			text-align: center;
+			font-family: "minecraft";
+		}
